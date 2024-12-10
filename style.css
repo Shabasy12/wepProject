@@ -1,0 +1,176 @@
+body {
+    font-family:Arial, Helvetica, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+
+.menu a:hover {
+    background-color: #555;
+    border-radius: 15px;
+}
+
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    padding: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 20px;
+}
+
+.menu video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 900px; 
+    margin: auto;
+    top: 100%;
+    transform: translateY(-50%);
+}
+@media(min-aspect-ratio:16/9){
+    .Section video{
+        width: 10%;
+        height: auto;
+    }
+}
+.table-content{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+   font-weight: bold;
+   display: block;
+   
+   
+   
+}
+.about-section{
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+    
+    
+    background-color: #0b0404;
+    
+    
+    
+
+}
+
+
+.bmw-background{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+    
+
+}
+
+    
+.Audi-section{
+    color:black;
+    text-align: center;
+    background-image: url(images/A.jpeg);
+    height: 800px;
+    padding: 10px;
+    background-size: cover;
+    font-weight: bold;
+    
+    
+}
+
+
+.car-image-ferrari{
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+    transition: transform 0.3s ease;
+    opacity: 0.9;
+    position: relative;
+    left: 400px;
+}
+
+.section-ferr{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.mercedes-sec{
+    padding-top:100px;
+    color: white;
+    text-align: center;
+    background-image: url(images/mercedes10_1.jpg);
+    background-size: cover;
+    height: 550px;
+    font-weight: bold;
+}
+.car-image-lamb{
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+    transition: transform 0.3s ease;
+    opacity: 1;
+    position: relative;
+    left: 400px;
+    
+}
+
+.lamb-sec{
+    color: rgb(8, 8, 8);
+    text-align:center;
+    background-image: url(images/lamb3.jpg);
+    background-size: cover;
+    height: 700px;
+    padding-top: 100px;
+    margin: 0;
+   font-weight: bold;
+
+}
